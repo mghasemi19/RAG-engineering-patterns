@@ -1,0 +1,30 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+secrets/
+credentials*.json
+token.json
+
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Generated local vector index
+/vectore_store/
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
