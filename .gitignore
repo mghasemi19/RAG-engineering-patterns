@@ -1,0 +1,61 @@
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+!.env.template
+!.env.sample
+.secrets/
+secrets/
+**/secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+credentials.json
+service-account*.json
+
+# Python environments, bytecode, and tool caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Notebook checkpoints and transient outputs
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Local vector databases and generated multimodal artifacts
+**/chroma_db/
+**/faiss_index/
+**/novacore_extracted_images/
+
+# Logs, temporary files, and local databases
+*.log
+*.tmp
+*.bak
+*.sqlite
+*.sqlite3
+*.db
+
+# Downloaded model weights and large binary artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
